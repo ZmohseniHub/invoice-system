@@ -51,7 +51,6 @@ const CreateInvoice = () => {
       date: data.date,
       description: data.description ? data.description : "",
     }));
-    console.log("invoice number:", data.invoiceNumber);
     
     setModalMode("add");
     setIsOpenModal(true);

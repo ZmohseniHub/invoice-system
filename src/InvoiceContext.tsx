@@ -66,7 +66,6 @@ export const InvoiceContextProvider = ({
 
   useEffect(() => {
     localStorage.setItem("invoices", JSON.stringify(invoices));
-    console.log(invoices);
   }, [invoices, currentInvoice]);
 
   const addItem = (item: Omit<ItemType, "id">) => {
