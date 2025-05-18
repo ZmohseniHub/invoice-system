@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Disable number input spinners - Standard & Cross-browser */
+.no-spinners {
+    appearance: textfield; /* Standard property */
+    -moz-appearance: textfield; /* Firefox */
+  }
+  .no-spinners::-webkit-inner-spin-button,
+  .no-spinners::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* WebKit browsers */
+    margin: 0;
+  }
